@@ -5,6 +5,14 @@
     position: sticky;
     top: 0;
   }
+
+.fixeddiv{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100000;
+}
+
 .navbar{
 
   justify-content: center;
@@ -40,6 +48,7 @@
     width: auto;}
 
 .headtitle {
+    padding-top: 2cm;
     text-align: center;
      color: #00b39b;
     }
